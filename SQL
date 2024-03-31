@@ -1,0 +1,43 @@
+Ans1.
+You can add a package.json file to your package to make it easy for others to manage and install. Packages published to the registry must contain a package.json file.
+
+A package.json file:
+
+lists the packages your project depends on
+specifies versions of a package that your project can use using semantic versioning rules
+makes your build reproducible, and therefore easier to share with other developers.
+
+
+Ans2.
+var fs = require('fs');
+fs.writeFile("tmp/test.txt", "Hey there!", function(err) {
+    if(err) {
+        console.log(err);
+    } else {
+        console.log("The file was saved!");
+    }
+}); 
+
+Ans3.
+// Node.js program to demonstrate the 
+// fs.appendFile() method 
+
+// Import the filesystem module 
+const fs = require('fs');
+
+// Get the file contents before the append operation 
+console.log("\nFile Contents of file before append:",
+	fs.readFileSync("example_file.txt", "utf8"));
+
+fs.appendFile("example_file.txt", "World", (err) => {
+	if (err) {
+		console.log(err);
+	}
+	else {
+		// Get the file contents after the append operation 
+		console.log("\nFile Contents of file after append:",
+			fs.readFileSync("example_file.txt", "utf8"));
+	}
+});
+
+
