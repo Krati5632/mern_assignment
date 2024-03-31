@@ -1,0 +1,11 @@
+Mouse events notify when the user uses the mouse (or similar input device) to interact with a component. Mouse events occur when the cursor enters or exits a component's onscreen area and when the user presses or releases one of the mouse buttons.
+
+Tracking the cursor's motion involves significantly more system overhead than tracking other mouse events. That is why mouse-motion events are separated into Mouse Motion listener type (see How to Write a Mouse Motion Listener).
+
+To track mouse wheel events, you can register a mouse-wheel listener. See How to Write a Mouse Wheel Listener for more information.
+
+If an application requires the detection of both mouse events and mouse-motion events, use the MouseInputAdapter class. This class implements the MouseInputListener, a convenient interface that implements the MouseListener and MouseMotionListener interfaces. However, the MouseInputListener interface does not implement the MouseWheelListener interface.
+
+Alternatively, use the corresponding AWT MouseAdapter class, which implements the MouseListener, MouseMotionListener, and MouseWheelListener interfaces.
+
+The following example shows a mouse listener. At the top of the window is a blank area (implemented by a class named BlankArea). The mouse listener listens for events both on the BlankArea and on its container, an instance of MouseEventDemo. Each time a mouse event occurs, a descriptive message is displayed under the blank area. By moving the cursor on top of the blank area and occasionally pressing mouse buttons, you can fire mouse events.
