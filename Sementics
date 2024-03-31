@@ -1,0 +1,36 @@
+Ans1.
+HTML5 Features, which are explained in detail below:
+Semantic Elements
+Audio and Video Support
+Canvas Elements
+Geolocation API
+Local Storage
+Responsive Images
+Web Workers
+Drag and Drop API
+Form Enhancements
+Web Sockets
+Micro Data
+Cross Document Messaging
+
+Ans2.
+Semantic HTML tags are tags that define the meaning of the content they contain. 
+
+For example, tags like <header>, <article>, and <footer> are semantic HTML tags. They clearly indicate the role of the content they contain.
+
+On the other hand, tags like <div> and <span> are typical examples of non-semantic HTML elements. 
+
+
+Ans3.
+Various HTML Semantic Tags are:
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<section>
