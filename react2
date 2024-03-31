@@ -1,0 +1,43 @@
+Using React Feature
+React Router
+useEffect()
+useState()
+Fetch API
+Custom Hook
+Debounce
+API
+GitHub is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code. It is commonly used to host open source software development projects.
+
+For the list of first 20 users
+GET request: https://api.github.com/users
+
+To get the details of single user
+GET request: https://api.github.com/users/{id or username}
+
+The response is in JSON format.
+
+Usage
+Install
+npm create vite@latest
+Select React framework and Javascript
+Run
+cd github-user-finder-web-app
+npm install
+npm run dev
+Install Tailwind
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+Configure your template paths
+Add the paths to all of your template files in your tailwind.config.js file.
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+Add the Tailwind directives to your CSS
+Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+Start your build process
+Run your build process with npm run dev.
+npm run dev
