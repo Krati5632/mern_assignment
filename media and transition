@@ -1,0 +1,20 @@
+Ans1.
+Media Queries allow authors to test and query values or features of the user agent or display device, independent of the document being rendered. They are used in the CSS @media rule to conditionally apply styles to a document, and in various other contexts and languages, such as HTML and JavaScript
+
+Ans2.
+Min-width
+The min-width media feature specifies the minimum width of a specific device. For instance, in the above section, we have enlisted some screen widths on the basis of the device type such as the minimum screen width of mobile devices is 320px.
+
+Max-width
+The max-width media feature states the maximum width of a particular device. For instance, the maximum screen width of mobile devices is 480px. Consult the example below to understand it in a better way.
+
+
+Ans3.
+The float property specifies whether an element should float to the left, right, or not at all.
+
+ Absolutely positioned elements ignore the float property!
+ Elements next to a floating element will flow around it. To avoid this, use the clear property or the clearfix hack (see example at the bottom of this page).
+
+The clear property controls the flow next to floated elements.
+The clear property specifies what should happen with the element that is next to a floating element.
+
