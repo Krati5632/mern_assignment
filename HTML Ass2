@@ -1,0 +1,21 @@
+Ans1. Inline - Elements which are defined within line with no closing tags.
+      Block Elements - Elements which are defined more than one line or with both opening and closing tags. 
+
+
+Ans2. 
+        <img src="image.jpg"> 
+
+Ans3.   
+      Three types of lists are there in HTML:
+      (i) Ordered - Items are defined in ascending order.
+Eg;   1. Item1
+      2. Item2
+      3. Item3
+
+      (ii) Unordered List - Items are defined with the help of blanks, bullets, stars like symbols, etc.
+Eg;   
+      *  Item1
+      *  Item2
+      *  Item3
+
+Ans4.   <a href = "http://www.google.com/">Google Search Engine</a>
