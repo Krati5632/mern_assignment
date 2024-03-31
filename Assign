@@ -1,0 +1,41 @@
+Ans1.
+mkdir first-servers
+
+cd first-servers
+
+touch hello.js
+
+nano hello.js
+
+const http = require("http");
+
+...
+const host = 'localhost';
+const port = 8000;
+
+
+Ans2.
+{
+  "name": "express-ads-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+Ans3
+onst express=require("express") 
+const router=express.Router() 
+  
+// Handling request using router 
+router.get("/",(req,res,next)=>{ 
+    res.send("This is the homepage request") 
+}) 
+  
+// Importing the router 
+module.exports=router
