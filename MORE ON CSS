@@ -1,0 +1,21 @@
+Ans1.
+
+Margin determines the space around an element outside of its defined borders. In other words, it is the distance between the element block and other page components or the page edges, known as “whitespace.”
+
+The padding determines the space within an element that separates the actual content from the borders of its frame. It acts as a cushioning that gives the content some space within the confines of the element. Adding distance through padding can emphasize the content and prevent it from displaying too close to the element borders.
+
+Ans2.
+Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+
+Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+
+Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+
+Ans3.
+min-height - This property sets the minimum height for an element. If the content of the element is larger than the minimum height, the height will expand to fit the content. If the content is smaller than the minimum height, the height will remain at the minimum value. This property is commonly used to ensure that elements have a minimum height, even if there is no content inside them.
+
+min-width - This property sets the minimum width for an element. If the content of the element is wider than the minimum width, the width will expand to fit the content. If the content is narrower than the minimum width, the width will remain at the minimum value. This property is commonly used to ensure that elements have a minimum width, even if there is no content inside them.
+
+max-height - This property sets the maximum height for an element. If the content of the element is larger than the maximum height, the height will be truncated and a scrollbar will appear to allow the user to scroll through the content. If the content is smaller than the maximum height, the height will remain at the content size. This property is commonly used to prevent elements from becoming too large and taking up too much space on the page.
+
+max-width - This property sets the maximum width for an element. If the content of the element is wider than the maximum width, the width will be truncated and a scrollbar will appear to allow the user to scroll through the content. If the content is narrower than the maximum width, the width will remain at the content size. This property is commonly used to prevent elements from becoming too wide and breaking the layout of the page.
