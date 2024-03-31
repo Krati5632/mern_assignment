@@ -1,0 +1,25 @@
+Ans1
+export default Component.extend({
+  init() {
+    this._super(...arguments);
+
+    var index = this.get('index');
+    this.set('elementId', `component-id${index}`);
+  }
+});
+
+Ans2
+import React from 'react'
+import  './custom-button.styles.scss'
+
+function CustomButton({children,isGoogleSignIn,...buttonProps}) {
+    return (
+        <button className={`${isGoogleSignIn? 'google-sign-in':''} custom-button`}>
+            {children}
+        </button>
+    )
+}
+
+export default CustomButton
+
+Ans3
