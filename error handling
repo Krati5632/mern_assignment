@@ -1,0 +1,10 @@
+An object is a collection of key-value pairs, where each value can be of any data type, including other objects. Objects are used to represent real-world entities and their properties. For example, you can use an object to represent a person with properties like name, age, and address.
+
+Here’s an example of a simple JavaScript object representing a person:
+
+const person = {
+  name: 'John Doe',
+  age: 30,
+  address: '123 Main St'
+};
+In this example, person is an object with three properties: name, age, and address. The values associated with these properties are a string, a number, and another string, respectively.
